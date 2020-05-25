@@ -1,0 +1,74 @@
+{
+  "name": "my-appliaction",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@vz-soe-utils/bar": "file:../../Project/soe-ui-components/vzw-react-components/packages/Bar",
+    "@vz-soe-utils/tab": "file:../../Project/soe-ui-components/vzw-react-components/packages/Tab",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.2.6",
+    "concurrently": "^4.1.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "express": "^4.17.1",
+    "jest-styled-components": "^6.3.3",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.7",
+    "primeicons": "^2.0.0",
+    "primereact": "^3.1.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-transition-group": "^4.2.2",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-saga": "^0.16.0",
+    "redux-saga-test-plan": "^3.7.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "concurrently \" node server.js\" \" npm run start\"",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "jest --coverage"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "directConnect": true,
+  "nyc": {
+    "sourceMap": true,
+    "instrument": false
+  },
+  "jest": {
+    "verbose": true,
+    "setupTestFrameworkScriptFile": "./enzyme.setup.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "babel-plugin-styled-components": "^1.10.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.6.0",
+    "jest-css-modules": "^2.1.0",
+    "jest-junit": "^7.0.0",
+    "jest-webpack-alias": "^3.3.3",
+    "moxios": "^0.4.0",
+    "react-test-renderer": "^16.8.6",
+    "redux-mock-store": "^1.5.3"
+  }
+}

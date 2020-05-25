@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering App Component without crash TEST FEILD Render text feild 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <inputTextComponent />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <InputText
+        id="inputtextStyle"
+        keyfilter={null}
+        label="Name"
+        onInput={null}
+        onKeyPress={null}
+        placeholder="Please Enter Name..."
+        tooltip={null}
+        tooltipOptions={null}
+        validateOnly={false}
+      />,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "id": "inputtextStyle",
+        "keyfilter": null,
+        "label": "Name",
+        "onInput": null,
+        "onKeyPress": null,
+        "placeholder": "Please Enter Name...",
+        "tooltip": null,
+        "tooltipOptions": null,
+        "validateOnly": false,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <InputText
+          id="inputtextStyle"
+          keyfilter={null}
+          label="Name"
+          onInput={null}
+          onKeyPress={null}
+          placeholder="Please Enter Name..."
+          tooltip={null}
+          tooltipOptions={null}
+          validateOnly={false}
+        />,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "id": "inputtextStyle",
+          "keyfilter": null,
+          "label": "Name",
+          "onInput": null,
+          "onKeyPress": null,
+          "placeholder": "Please Enter Name...",
+          "tooltip": null,
+          "tooltipOptions": null,
+          "validateOnly": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

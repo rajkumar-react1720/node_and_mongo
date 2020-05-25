@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="1" time="4.224">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-08-06T01:50:51" time="1.526" tests="1">
+    <testcase classname=" adds 1 + 2 to equal 3" name=" adds 1 + 2 to equal 3" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="fetchProductList action" errors="0" failures="0" skipped="0" timestamp="2019-08-06T01:50:51" time="1.601" tests="1">
+    <testcase classname="fetchProductList action Should return FETCH_PRODUCT_LIST" name="fetchProductList action Should return FETCH_PRODUCT_LIST" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Fetch ProdcutList Reducer" errors="0" failures="0" skipped="0" timestamp="2019-08-06T01:50:51" time="1.626" tests="1">
+    <testcase classname="Fetch ProdcutList Reducer should store ProdcutList  on FETCH_PRODUCT_LIST_SUCCESS" name="Fetch ProdcutList Reducer should store ProdcutList  on FETCH_PRODUCT_LIST_SUCCESS" time="0.033">
+    </testcase>
+  </testsuite>
+  <testsuite name="saga" errors="0" failures="0" skipped="0" timestamp="2019-08-06T01:50:51" time="1.781" tests="1">
+    <testcase classname="saga should return DATA
+    " name="saga should return DATA
+    " time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="fetchProductListSaga" errors="0" failures="0" skipped="0" timestamp="2019-08-06T01:50:51" time="1.891" tests="1">
+    <testcase classname="fetchProductListSaga should return FETCH_PRODUCT_LIST_SUCCESS" name="fetchProductListSaga should return FETCH_PRODUCT_LIST_SUCCESS" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="Rendering App Component without crash" errors="0" failures="1" skipped="0" timestamp="2019-08-06T01:50:51" time="2.662" tests="1">
+    <testcase classname="Rendering App Component without crash TEST FEILD Render text feild" name="Rendering App Component without crash TEST FEILD Render text feild" time="0.049">
+      <failure>Error: 
+      Enzyme Internal Error: Enzyme expects an adapter to be configured, but found none.
+      To configure an adapter, you should call `Enzyme.configure({ adapter: new Adapter() })`
+      before using any of Enzyme&apos;s top level APIs, where `Adapter` is the adapter
+      corresponding to the library currently being tested. For example:
+
+      import Adapter from &apos;enzyme-adapter-react-15&apos;;
+
+      To find out more about this, see http://airbnb.io/enzyme/docs/installation/index.html
+    
+    at validateAdapter (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\enzyme\src\validateAdapter.js:5:11)
+    at getAdapter (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\enzyme\src\getAdapter.js:10:3)
+    at makeShallowOptions (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\enzyme\src\ShallowWrapper.js:345:19)
+    at new makeShallowOptions (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\enzyme\src\ShallowWrapper.js:379:21)
+    at shallow (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\enzyme\src\shallow.js:10:10)
+    at Object.&lt;anonymous&gt; (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\spec\component\App.spec.js:8:15)
+    at Object.asyncJestLifecycle (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\jest-jasmine2\build\jasmine_async.js:63:37)
+    at resolve (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\jest-jasmine2\build\queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\jest-jasmine2\build\queue_runner.js:43:19)
+    at promise.then (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\jest-jasmine2\build\queue_runner.js:87:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+      <failure>TypeError: Cannot read property &apos;find&apos; of undefined
+    at Object.find (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\spec\component\App.spec.js:15:24)
+    at Object.asyncJestTest (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\jest-jasmine2\build\jasmine_async.js:108:37)
+    at resolve (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\jest-jasmine2\build\queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\jest-jasmine2\build\queue_runner.js:43:19)
+    at promise.then (C:\Users\IVC17204adm\Desktop\ReactApplications\sampleapplication\node_modules\jest-jasmine2\build\queue_runner.js:87:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

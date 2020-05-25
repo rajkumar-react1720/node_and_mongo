@@ -1,0 +1,2 @@
+const data = [{"id":"01","name":"Rajkumar","address":"234 hid rd","age":"23"},{"id":"02","name":"Naveen","address":"232 hid rd","age":"29"},{"id":"03","name":"Param","address":"232 hid rd","age":"21"},{"id":"04","name":"sumanth","address":"2344 hid rd","age":"20"}]
+export default data;
