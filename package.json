@@ -5,7 +5,7 @@
   "dependencies": {
     "@vz-soe-utils/bar": "file:../../Project/soe-ui-components/vzw-react-components/packages/Bar",
     "@vz-soe-utils/tab": "file:../../Project/soe-ui-components/vzw-react-components/packages/Tab",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "classnames": "^2.2.6",
     "concurrently": "^4.1.1",
